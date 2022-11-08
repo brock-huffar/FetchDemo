@@ -11,9 +11,9 @@ Here will use http request through cURL to enter and track our payments
    `git clone https://github.com/brock-huffar/FetchDemo.git`
    
 Then we have two choices on how to run this file:
-  1. Open folder "demo" folder in your IDE, and run DemoApplication.java
+  1. Open "demo" folder in your IDE, and run DemoApplication.java
      
-  2. Run as Jar executable with command
+  2. Navigate to "demo" folder and run as Jar executable with command
       `java -jar target/demo-0.0.1-SNAPSHOT.jar`
       
 Once we have application running, we will open a new terminal to start executing commands
