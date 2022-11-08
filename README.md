@@ -32,7 +32,9 @@ There are four commands we can run:
 
 The add payment command will allow for a curl command to add a payment
   -add must include operation, payer, points, and timestamp
-
+  !!!!!
+  (Note, based on specification from project write up file, two add functions cannot have the same timestamp)
+  
   add command will be executed like this: 
   
   `curl http://localhost:8080/functions\?'operation=add&payer=miller&points=1000&timeStamp=2022-11-02T14:00:00Z'`
