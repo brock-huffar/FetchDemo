@@ -62,7 +62,7 @@ The company spend command allows points to be spent from a single company.  The 
     
    companyspend command will be executed like this:
     
-    `curl http://localhost:8080/functions\?'operation=companyspend&payer=dannon&points=200'`
+   `curl http://localhost:8080/functions\?'operation=companyspend&payer=dannon&points=200'`
     
 If successful, this command will return the payer and points taken from the payer
 
