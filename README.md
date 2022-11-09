@@ -3,7 +3,7 @@
 
 Welcome to the Fetch Reward Payment System Demo!
 
-Here we'll use http request through cURL to enter and track our payments
+Here we'll use http requests through cURL to enter and track our payments
 
 ### Setting up Demo:
    First, run this command on your terminal: 
@@ -30,7 +30,7 @@ There are four commands we can run:
 
 ### Add Payment
 
-Then, add payment command will allow for a curl command to add a payment
+The add payment command will allow for a curl command to add a payment
   -add must include operation, payer, points, and timestamp
   
   !!!!!
@@ -60,7 +60,7 @@ If successful, this command will return a list of payers and points taken from t
 
 ### Company Spend
 
-The company spend command allows points to be spent from a single company. The points will be taken from company payemnts in the order they were timestamped
+The company spend command allows points to be spent from a single company. The points will be taken from company payments in the order they were timestamped
     
    companyspend needs operation, payer, and points parameters
     
@@ -75,7 +75,7 @@ If successful, this command will return the payer and points taken from the paye
 
 The check balance command allows for a complete list of the companies and their point totals
 
-   balance operation requires on the operation parameter
+   balance operation requires only the operation parameter
    
    balance command will be executed like this:
    
