@@ -28,7 +28,7 @@ There are four commands we can run:
 3. Company Spend
 4. Check Balance
 
-#### Add Payment
+### Add Payment
 
 Then, add payment command will allow for a curl command to add a payment
   -add must include operation, payer, points, and timestamp
