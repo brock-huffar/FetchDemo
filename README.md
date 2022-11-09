@@ -94,7 +94,7 @@ If successful, this command will return a list of all payers and their point tot
 
 While this is a functional demo, if this were to be scaled to production there are some changes I would make to allow it be used at scale.  
 
-#### Data would not be stored locally
+#### Data Store
 
 Data would not be stored locally like it is in this application.  Data would most likely be stored in cloud database like AWS.  
 
