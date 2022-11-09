@@ -82,4 +82,24 @@ The check balance command allows for a complete list of the companies and their 
    `curl http://localhost:8080/functions\?'operation=balance'`
  
 If successful, this command will return a list of all payers and their point totals
+
+
+
+
+
+### Other Notes
+
+While this is a functional demo, if this were to be scaled to production there are some changes I would make to allow it be used at scale.  
+
+#### Data would not be stored locally
+
+Data would not be stored locally like it is in this application.  Data would most likely be stored in cloud database like AWS.  
+
+#### Transaction Safety and ACID Princicals
+
+With a system at scale we can assume mistakes would happen; system failure, incomplete transaction, multiple transactions at once.  For this we would rely on the ACID properties of *Atomicity*, *Consistency*, *Isolation*, and *Durability* to ensure transaction happen in order, are complete, and all data is kept.  
+
+#### Authentification
+
+Depending on how the system is set up, we could add an authentification system, ensuring only valid "users" are able to submit transactions.  
   
