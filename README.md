@@ -5,7 +5,7 @@ Welcome to the Fetch Reward Payment System Demo!
 
 Here we'll use http requests through cURL to enter and track our payments
 
-###### Note
+#### Note
    If this application is being run on Windows machine, use powershell not command prompt
 
 ### Setting up Demo:
